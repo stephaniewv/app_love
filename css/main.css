@@ -1,0 +1,158 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 0;
+  border-left: 50px solid white;
+  border-right: 50px solid white;
+  border-top: 1px solid white;
+  text-align: center;
+}
+
+
+header div a {
+  /* outline: 1px solid blue; */
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-content: center;
+ 
+}
+
+
+
+.contenedormenu{
+  /* outline: 1px solid palevioletred; */
+  padding-left: 30%;
+  
+}
+.triangulo {
+  /* outline: 1px solid yellow; */
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-left: 50%;
+  
+}
+
+#first{
+  background-image: url(../assets/images/bg-home.jpg);
+  height: 450px;
+  padding-top: 60px;
+}
+
+.text{
+  color: #FFF;
+  top: 70px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 0px;
+}
+
+section div{
+  /* outline: 1px solid brown; */
+  display: block;
+}
+
+.home{
+  display: block;
+}
+section div h2{
+  /* outline: 1px solid green; */
+  color: #FFF;
+  top: 70px;
+  float: top;
+}
+
+#second{
+  background: #E95853;
+  color: white;
+}
+
+.circule {
+  width: 100px;
+}
+
+.services{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.hero{
+  width: 100%;
+}
